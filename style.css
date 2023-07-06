@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape&_gl=1*1grk4ek*_ga*OTY0MTY3NzEyLjE2NzkxMzk3MjQ.*_ga_37GXT4VGQK*MTY4Nzg3NzI2OC4xMjYuMS4xNjg3ODc3MzE0LjAuMC4w");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2rem);
+    
+}
+
+.container {
+    padding: 20px;
+    background-image: linear-gradient( to right, rgb(76, 93, 112), rgba(105, 143, 105, 0.548), white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5 ease-in-out;
+
+}
+
+button:hover{
+opacity: 0.7;
+
+}
+
+#rock{
+background-color: #341380;
+border: solid white 3px;
+}
+
+#fist{
+    background-color: #8be416;
+    border: solid white 3px;
+}
+
+#victory-hand{
+    background-color: #eb0fcd;
+    border: solid white 3px;
+}
+
+h2 {
+    font-family:'sans-serif';
+    text-align:center;
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+
+}
+
+#you {
+    color: #1e0969;
+}
+
+#machine {
+    color:#f14d0ce5
+}
